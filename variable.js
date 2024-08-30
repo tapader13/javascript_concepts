@@ -92,3 +92,13 @@ var n = null;
 console.log(n);
 console.log(typeof n);
 console.log(isNaN(n));
+
+console.log(isNaN(null));
+console.log(isNaN(undefined));
+console.log(isNaN(NaN));
+console.log(isNaN(10));
+console.log(isNaN(10.5));
+console.log(isNaN('10'));
+
+console.log(isNaN(true));
+console.log(isNaN(false));
