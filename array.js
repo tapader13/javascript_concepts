@@ -28,6 +28,10 @@ console.log(fruits.slice(0, 1));
 // let result = subjects.splice(1, 2);
 // console.log(result);
 // console.log(subjects);
-let result = subjects.splice(1, 2, 't1');
-console.log(result);
-console.log(subjects);
+// let result = subjects.splice(1, 2, 't1');
+// console.log(result);
+// console.log(subjects);
+
+// console.log(Array.from('minhaj'));
+// console.log(Array.from([1, 2, 3], (opt, i) => opt * 2));
+console.log(Array.from({ length: 3 }, (_, i) => i * 2));

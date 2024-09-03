@@ -94,3 +94,30 @@
 //   i++;
 // }
 // console.log(sum);
+
+// let arr = [1, 2, 1, 3, 4, 5, 6, 7, 8, 9, 10];
+// let ans = [];
+// for (let i = 0; i < arr.length; i++) {
+//   if (!ans.includes(arr[i])) {
+//     ans.push(arr[i]);
+//   }
+// }
+// console.log(ans);
+
+// let str = 'minhaj uddin';
+// let ans = str.split(' ');
+// for (let i = 0; i < ans.length; i++) {
+//   ans[i] = ans[i].substr(0, 1).toUpperCase() + ans[i].substr(1);
+// }
+// console.log(ans.join(' '));
+
+// let str = 'xyr xxx fjgvfdnzxcnz,';
+// let ans = '';
+// for (let i = 0; i < str.length; i++) {
+//   if (str[i] === 'x') {
+//     ans += 'y';
+//   } else {
+//     ans += str[i];
+//   }
+// }
+// console.log(ans);
