@@ -37,6 +37,19 @@ console.log(!!name);
 // let a = undefined;
 // console.log(!!a);
 
-console.log(typeof NaN);
-console.log(isNaN(NaN));
-console.log(NaN === NaN);
+// console.log(typeof NaN);
+// console.log(isNaN(NaN));
+// console.log(NaN === NaN);
+
+let arr = [1, 2, 3, 4, 5];
+// console.log(arr.includes(3));
+// console.log(arr.indexOf(8));
+// console.log(typeof arr);
+// console.log(Array.isArray(arr));
+// arr.push(6, 7);
+// arr.unshift(9, 10);
+// console.log(arr);
+
+// for (let index = arr.length - 1; index >= 0; index--) {
+//   console.log(arr[index]);
+// }

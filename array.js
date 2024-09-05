@@ -65,10 +65,35 @@ console.log(ans);
 // console.log(str);
 
 //reverese word of an string
-let arr1 = 'i am minhaj uddin tapader';
-let str = arr1.split(' ');
-let ans1 = [];
-for (const element of str) {
-  ans1.unshift(element);
-}
-console.log(ans1.join(' '));
+// let arr1 = 'i am minhaj uddin tapader';
+// let str = arr1.split(' ');
+// let ans1 = [];
+// for (const element of str) {
+//   ans1.unshift(element);
+// }
+// console.log(ans1.join(' '));
+
+//sort array of strings|| numbers
+//string unicode uppercase has lower value so it come first
+// let str1 = [
+//   'apple',
+//   'Bornana',
+//   'banana',
+//   'orange',
+//   'grape',
+//   'mango',
+//   'cherry',
+//   'pineapple',
+//   'Strawberry',
+// ];
+
+// console.log(str1.sort());
+
+let str1 = [1, 1, 2, 22, 4, 5, 6, 7, 8, 9, 10];
+// console.log(str1.sort()); //not work perfect way cause sort work with string alphabetically
+
+//ascending
+console.log(str1.sort((a, b) => a - b)); //here it checks + - 0 if - then a first if + then b first if 0 then a then b
+
+//descending
+console.log(str1.sort((a, b) => b - a));
