@@ -57,3 +57,32 @@
 //   j--;
 // }
 // console.log(str.join(''));
+
+//check a string contain all vowel or not
+//1
+// let str2 = 'minazelot';
+// let ans2 =
+//   str2.includes('a') &&
+//   str2.includes('e') &&
+//   str2.includes('i') &&
+//   str2.includes('o') &&
+//   str2.includes('u');
+// console.log(ans2);
+
+//2
+// let str2 = 'minazelotou';
+// let ans2 = [];
+// for (let i = 0; i < str2.length; i++) {
+//   if (
+//     str2[i] === 'a' ||
+//     str2[i] === 'e' ||
+//     str2[i] === 'i' ||
+//     str2[i] === 'o' ||
+//     str2[i] === 'u'
+//   )
+//     if (ans2.includes(str2[i]) === false) {
+//       ans2.push(str2[i]);
+//     }
+// }
+// let res = ans2.join('').length === 5 ? true : false;
+// console.log(res);

@@ -53,3 +53,6 @@ let arr = [1, 2, 3, 4, 5];
 // for (let index = arr.length - 1; index >= 0; index--) {
 //   console.log(arr[index]);
 // }
+
+// let str = 'minukn';
+// console.log(str.indexOf('n', 2));//here it checks from index 2
