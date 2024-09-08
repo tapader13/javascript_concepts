@@ -128,3 +128,95 @@ let arr = [1, 2, 3, 4, 5];
 // }
 
 // console.log(longestWord('i am minhaj uddin '));
+
+//min from an object
+// let obj = [
+//   { name: 'minhaj', age: 20 },
+//   { name: 'minu', age: 21 },
+//   { name: 'min', age: 22 },
+//   { name: 'minh', age: 23 },
+// ];
+
+// function minAge(obj) {
+//   let min = obj[0].age;
+//   for (const element of obj) {
+//     if (element.age < min) {
+//       min = element.age;
+//     }
+//   }
+//   return min;
+// }
+
+// console.log(minAge(obj));
+
+//calculator with operator
+// function calculator(num1, num2, operator) {
+//   if (operator === '+') {
+//     return num1 + num2;
+//   } else if (operator === '-') {
+//     return num1 - num2;
+//   } else if (operator === '*') {
+//     return num1 * num2;
+//   } else if (operator === '/') {
+//     return num1 / num2;
+//   } else if (operator === '%') {
+//     return num1 % num2;
+//   } else if (operator === '**') {
+//     return num1 ** num2;
+//   } else {
+//     return 'Invalid operator';
+//   }
+// }
+// console.log(calculator(1, 2, '-'));
+
+//layred discount count
+// function discountCount(quantity, price) {
+//   let discount200 = 0.2;
+//   let discount300 = 0.3;
+//   let discount400 = 0.4;
+//   if (quantity <= 100) {
+//     return price * quantity;
+//   } else if (quantity <= 200) {
+//     return price * 100 + (quantity - 100) * price * discount200;
+//   } else if (quantity <= 300) {
+//     return (
+//       price * 100 +
+//       (quantity - 200) * price * discount300 +
+//       100 * price * discount200
+//     );
+//   } else {
+//     return (
+//       price * 100 +
+//       (quantity - 300) * price * discount400 +
+//       100 * price * discount300 +
+//       100 * price * discount200
+//     );
+//   }
+// }
+
+// console.log(discountCount(110, 10));
+
+//6 pillers of javascript
+//variables
+//functions
+//objects
+//arrays
+//conditionals
+//loops
+
+//salary increment sum from an array of objects with experience year
+// let salaryObj = [
+//   { name: 'minhaj', exp: 3, salary: 20000, increment: 4000 },
+//   { name: 'minu', exp: 4, salary: 30000, increment: 5000 },
+//   { name: 'min', exp: 5, salary: 40000, increment: 6000 },
+//   { name: 'minh', exp: 6, salary: 50000, increment: 7000 },
+// ];
+
+// function salarySum(salaryObj) {
+//   let sum = 0;
+//   for (const element of salaryObj) {
+//     sum += element.increment * element.exp + element.salary;
+//   }
+//   return sum;
+// }
+// console.log(salarySum(salaryObj));
